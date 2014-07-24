@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Интерьерные двери</title>
+		<link rel="shortcut icon" href="res/img/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="res/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="res/css/style.css" />
+		<script type="text/javascript" src="res/js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="res/js/cityselect.js"></script>
+		<script type="text/javascript" src="res/js/favorites.js"></script>
+		<script type="text/javascript" src="res/js/imgswitch.js"></script>
+		<script type="text/javascript" src="res/js/pages/index.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-container clearfix">
+				<div class="left-header-container">
+					<a href="javascript://;">Каталог</a>
+					<a href="javascript://;">О компании</a>
+					<a href="javascript://;">Дизайн</a>
+					<a href="javascript://;">Услуги</a>
+					<a href="javascript://;">Где купить</a>
+					<a class="last-element" href="javascript://;">Wiki</a>
+				</div>
+				<div class="right-header-container">
+					<a class="first-element" href="javascript://;">Доставка</a>
+					<a href="javascript://;">Установка</a>
+					<a href="javascript://;">Оплата</a>
+					<a href="javascript://;">Замер</a>
+				</div>
+			</div>
+		</div>
+		<div class="second-header clearfix">
+			<div class="logo">
+				<img src="res/img/logo.png" />
+			</div>
+			<div class="pop-up-window hidden">
+				Ваш город Москва, но мы можем ошибаться. Поправьте нас, если это не так.
+				<input type="text" id="city-select" value="Москва" />
+				Также вы можете указать ваш домашний адрес здесь, и эта информация поможем вам найти ближайший магазин, заказать доставку товара и вызвать замерщика. Кстати, мы больше никогда не спросим ваш адрес, если вы укажете его здесь и сейчас.<br />
+				<input type="button" id="save-button" value="Сохранить" />
+			</div>
+			<div class="basket">
+				<div class="basket-img">
+					<a href="javascript://;"><img src="res/img/basket.png" /></a>
+				</div>
+				<div class="basket-text">
+					Корзина: <a href="javascript://;">0</a><br />Мой город <a class="city" href="javascript://;">Москва</a> мне нужно <a href="javascript://;">5 дверей</a>
+				</div>
+			</div>
+			<div class="call-me">
+				<div class="call-me-img">
+					<img src="res/img/phone-img.png" />
+				</div>
+				<a class="call-me-text" href="javascript://;">
+					Перезвонить<br />мне
+				</a>
+			</div>
+			<div class="phone-number">
+				+7 495 640-66-04
+				<img src="res/img/24-7.png" />
+			</div>
+		</div>
+		<div class="right-bar-container">
+			<div class="right-bar">
+				<div class="star-bar"><div class="star-text">Избранное</div><img class="star" src="res/img/right-bar-star.png" /></div>
+				<div class="first-div"><div>Текст</div></div>
+				<div class="second-div"><div>Текст</div></div>
+				<div class="third-div"><div>Текст</div></div>
+				<div class="fourth-div"><div>Текст</div></div>
+				<div class="fifth-div"><div>Текст</div></div>
+				<div class="sixth-div"><div>Текст</div></div>
+				<div class="seventh-div"><div>Текст</div></div>
+			</div>
+		</div>
+		<div class="main-img-container">
+			<div class="img-header">
+				<a href="javascript://;"><div class="active-tab">Фото</div></a>
+				<a href="javascript://;"><div>Примерочная</div></a>
+				<a href="javascript://;"><div>Увидеть живьём</div></a>
+				<a href="javascript://;"><div>Выбрать замерщика</div></a>
+			</div>
+			<div class='image-viewport'>
+			      <div class='image-container'>
+			           <img class='image' src='res/img/main-img-1.png' />
+			           <img class='image' src='res/img/main-img-2.png' />
+			           <img class='image' src='res/img/main-img-3.png' />
+			           <img class='image' src='res/img/main-img-4.png' />
+			           <img class='image' src='res/img/main-img-5.png' />
+			           <img class='image' src='res/img/main-img-6.png' />
+			           <img class='image' src='res/img/main-img-7.png' />
+			           <img class='image' src='res/img/main-img-8.png' />
+			           <img class='image' src='res/img/main-img-9.png' />
+			           <img class='image' src='res/img/main-img-10.png' />
+			           <img class='image' src='res/img/main-img-11.png' />
+			           <img class='image' src='res/img/main-img-12.png' />
+			      </div>
+			</div>
+			<a class="pointer-left" href="javascript://;"><img src='res/img/pointer-left.png' /></a>
+			<a class="pointer-right" href="javascript://;"><img src='res/img/pointer-right.png' /></a>
+			<div class="icon-container">
+				<a class="first-icon" href="javascript://;"><img src="res/img/icon1.png" /></a>
+				<a class="second-icon" href="javascript://;"><img src="res/img/icon2.png" /></a>
+				<a class="third-icon" href="javascript://;"><img src="res/img/icon3.png" /></a>
+			</div>
+			<div class="dots-bar">
+				<a class="first-dot dot active-dot" href="javascript://;"></a>
+				<a class="dot" href="javascript://;"></a>
+				<a class="dot" href="javascript://;"></a>
+				<a class="dot" href="javascript://;"></a>
+				<a class="dot" href="javascript://;"></a>
+				<a class="dot" href="javascript://;"></a>
+				<a class="dot" href="javascript://;"></a>
+				<a class="dot" href="javascript://;"></a>
+				<a class="dot" href="javascript://;"></a>
+				<a class="dot" href="javascript://;"></a>
+				<a class="dot" href="javascript://;"></a>
+				<a class="dot" href="javascript://;"></a>
+			</div>
+			<div class="buy">
+				<a href="javascript://;"><div class="first-div">Купить</div></a>
+				<div class="last-div">Обратите внимание, что в нашей корзине вы можете добавлять несколько заказов и сравнивать их по конечной стоимости.</div>
+			</div>
+		</div>
+		<div class="main-container clearfix">
+			<div class="left-column">
+				<div class="left-column-tabs">
+					<a href="javascript://;"><div class="first-tab active-tab">Общее описание</div></a>
+					<a href="javascript://;"><div>Доставка и установка</div></a>
+					<a href="javascript://;"><div>Гарантия и возврат</div></a>
+					<a href="javascript://;"><div class="last-tab">Полезные материалы</div></a>
+				</div>
+				<div class="left-column-content">
+					<div>
+						<div class="label">
+							Цвет
+						</div>
+						<div class="value">
+							Грецкий орех
+						</div>
+					</div>
+					<div class="even-row">
+						<div class="label">
+							Отделка
+						</div>
+						<div class="value">
+							CPL с древесной текстурой
+						</div>
+					</div>
+					<div>
+						<div class="label">
+							Конструкция двери
+						</div>
+						<div class="value">
+							Дверь универсальная по типу открывания, каркасно-сотовой 
+конструкции с фальцем (четвертью) + облицовка панелями из ДВП 
+толщиной 4 мм. Толщина полотна 40 мм.
+						</div>
+					</div>
+					<div class="even-row">
+						<div class="label">
+							Исполнение<br />(Тип открывания)
+						</div>
+						<div class="value">
+							Двери универсальные, двухсторонняя фрезеровка отверстий под 
+фурнитуру. Регулирование открывания за счёт перемещения замка 
+и ввертных петель.
+						</div>
+					</div>
+					<div>
+						<div class="label">
+							Отделка
+						</div>
+						<div class="value">
+							Материал Sincrolam на основе рисовой бумаги с 3D эффектом 
+древесной структуры с нанесением бесцветного защитного лака, 
+что придает более высокие характеристики по износостойкости, 
+сопротивлению к механическим повреждениям (царапинам и т.п.), 
+устойчивости к загрязнениям (масла, жиры, микроорганизмы).
+						</div>
+					</div>
+					<div class="even-row">
+						<div class="label">
+							Стекло
+						</div>
+						<div class="value">
+							Стекло художественное цветное «Лиана». Установлено в заводских 
+условиях с применением промышленного герметика, проходит все 
+стадии контроля качества. Полностью исключается дребезжание 
+стекла в процессе эксплуатации. Риск пораниться в случае разбития 
+стекла существенно снижается – крупные осколки не имеют 
+возможности разлетаться.
+
+						</div>
+					</div>
+					<div>
+						<div class="label">
+							Декоры<br />(багет, переплет)
+						</div>
+						<div class="value">
+							Двери декорируются багетом, багет – МДФ, окутанный материалом 
+CPL в цвет изделия. Крепится на металлические шпильки и силикон.
+						</div>
+					</div>
+					<div class="even-row">
+						<div class="label">
+							Кромка
+						</div>
+						<div class="value">
+							Полотна окутаны основным материалом CPL
+						</div>
+					</div>
+					<div>
+						<div class="label">
+							Комплектующие
+						</div>
+						<div class="value">
+							Монтажный комплект. 
+Дверная коробка телескопической системы (81 мм), наличник 
+Г-образный прямой; при необходимости доборный элемент на базе 
+ДСП 16 мм (125 мм).
+						</div>
+					</div>
+					<div class="even-row">
+						<div class="label">
+							Размеры
+						</div>
+						<div class="value">
+							Ширина дверного полотна: 620, 720, 820, 920 мм. Двухстворчатые 
+комплектуются универсальным притвором, который входит в МК 
+(монтажный комплект) для двухстворчатой двери. Высота дверного 
+полотна 2010 мм.
+						</div>
+					</div>
+					<div>
+						<div class="label">
+							Фурнитура
+						</div>
+						<div class="value">
+							С одной стороны полотна установлен механический замок 
+с пластиковым «язычком» под цилиндр и петли, «вставка типа WC» 
+вложена в МК. С оборотной стороны установлены декоративные 
+заглушки в отверстия под петли и замок.
+
+						</div>
+					</div>
+					<div class="even-row">
+						<div class="label">
+							Звуковое сопротивление
+						</div>
+						<div class="value">
+							В пределах 26 дБ.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right-column">
+				<div class="right-column-tabs">
+					<a href="javascript://;"><div class="first-tab active-tab">Рекомендуем</div></a>
+					<a href="javascript://;"><div class="last-tab">Другие модели серии</div></a>
+				</div>
+				<div class="right-column-content">
+					<div class="first-row-of-right-column-content">
+						<a class="door-container" href="javascript://;">
+							<div class="door-img">
+								<img class="first-img" src="res/img/sir1.png" />
+								<img src="res/img/sir2.png" />
+							</div>
+							<div class="door-name">Сириус, дуб<br />12 000 рублей</div>
+						</a>
+						<a class="door-container" href="javascript://;">
+							<div class="door-img">
+								<img class="first-img" src="res/img/shm1.png" />
+								<img src="res/img/shm2.png" />
+							</div>	
+							<div class="door-name">Шмириус, ель<br />11 500 рублей</div>
+						</a>
+					</div>
+					<div>
+						<a class="door-container" href="javascript://;">
+							<div class="door-img">
+								<img class="first-img" src="res/img/sin1.png" />
+								<img src="res/img/sin2.png" />
+							</div>
+							<div class="door-name">Синезуб, ольха<br />13 300 рублей</div>
+						</a>
+						<a class="door-container" href="javascript://;">
+							<div class="door-img">
+								<img class="first-img" src="res/img/tir1.png" />
+								<img src="res/img/tir2.png" />
+							</div>	
+							<div class="door-name">Тирамису, берёза<br />10 520 рублей</div>
+						</a>
+					</div>
+					<div>
+						<a class="door-container" href="javascript://;">
+							<div class="door-img">
+								<img class="first-img" src="res/img/sir1.png" />
+								<img src="res/img/sir2.png" />
+							</div>
+							<div class="door-name">Сириус, дуб<br />12 000 рублей</div>
+						</a>
+						<a class="door-container" href="javascript://;">
+							<div class="door-img">
+								<img class="first-img" src="res/img/shm1.png" />
+								<img src="res/img/shm2.png" />
+							</div>	
+							<div class="door-name">Шмириус, ель<br />11 500 рублей</div>
+						</a>
+					</div>
+					<div>
+						<a class="door-container" href="javascript://;">
+							<div class="door-img">
+								<img class="first-img" src="res/img/sin1.png" />
+								<img src="res/img/sin2.png" />
+							</div>
+							<div class="door-name">Синезуб, ольха<br />13 300 рублей</div>
+						</a>
+						<a class="door-container" href="javascript://;">
+							<div class="door-img">
+								<img class="first-img" src="res/img/tir1.png" />
+								<img src="res/img/tir2.png" />
+							</div>	
+							<div class="door-name">Тирамису, берёза<br />10 520 рублей</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
