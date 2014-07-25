@@ -2,6 +2,6 @@
 
 Заказчик прислал макет главной страницы в PSD, по этому макету сделал вёрстку
 
-### [Главная страница](http://enrikolabriko.github.io/doors/index.html "Главная страница")
+### [Главная страница](http://enrikolabriko.github.io/Doors/index.html "Главная страница")
 
 ![Главная страница](screenshots/index.png)
